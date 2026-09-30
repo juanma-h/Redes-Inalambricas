@@ -1,0 +1,39 @@
+# Compilados y directorios de construcción
+*.class
+/bin/
+/out/
+/build/
+/target/
+
+# Datos generados al ejecutar desde la raíz (se pueden regenerar)
+/aps.csv
+/conexiones.txt
+/saturacion.csv
+
+# Configuración personal de editores; conservar la configuración compartida
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/extensions.json
+/.idea/
+*.iml
+/.classpath
+/.project
+/.settings/
+
+# Archivos temporales y herramientas locales
+/tmp/
+/.codex_tmp/
+/.analysis-build/
+/.clone-check-*/
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Variables y credenciales locales
+.env
+.env.*
+!.env.example
